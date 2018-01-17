@@ -18,7 +18,7 @@ Trong phần này, chúng ta sẽ xây dựng một ứng dụng cho phép tính
    - Số lượng tiền cho vay
    - Tỉ lệ lãi suất theo tháng
    - Só tháng cho vay
-   - Tính toán tổng tiền có được sau khi hết thời hạn
+ - Tính toán tổng tiền có được sau khi hết thời hạn
  
 Phân tích:
  - Để tính tổng tiền lãi sau 1 tháng ta dùng công thức: Số tiền hiện có * tỉ lệ lãi suất. Ví dụ nếu số tiền cho vay là 1.000.000 (1 triệu) và tỉ lệ lãi suất là 5% thì ta có công thức tính tiền lãi là 1.000.000 * 0.05
