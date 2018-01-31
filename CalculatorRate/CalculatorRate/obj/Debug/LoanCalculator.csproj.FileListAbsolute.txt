@@ -1,0 +1,7 @@
+C:\Users\thaotm\Documents\DATA\01. Projects\CODEGYMS\Examples\CalculatorRate\CalculatorRate\CalculatorRate\bin\Debug\CalculatorRate.exe.config
+C:\Users\thaotm\Documents\DATA\01. Projects\CODEGYMS\Examples\CalculatorRate\CalculatorRate\CalculatorRate\bin\Debug\CalculatorRate.exe
+C:\Users\thaotm\Documents\DATA\01. Projects\CODEGYMS\Examples\CalculatorRate\CalculatorRate\CalculatorRate\bin\Debug\CalculatorRate.pdb
+C:\Users\thaotm\Documents\DATA\01. Projects\CODEGYMS\Examples\CalculatorRate\CalculatorRate\CalculatorRate\obj\Debug\LoanCalculator.csproj.CoreCompileInputs.cache
+C:\Users\thaotm\Documents\DATA\01. Projects\CODEGYMS\Examples\CalculatorRate\CalculatorRate\CalculatorRate\obj\Debug\CalculatorRate.exe
+C:\Users\thaotm\Documents\DATA\01. Projects\CODEGYMS\Examples\CalculatorRate\CalculatorRate\CalculatorRate\obj\Debug\CalculatorRate.pdb
+C:\Users\thaotm\Documents\DATA\01. Projects\CODEGYMS\Examples\CalculatorRate\CalculatorRate\CalculatorRate\obj\Debug\LoanCalculator.csprojResolveAssemblyReference.cache

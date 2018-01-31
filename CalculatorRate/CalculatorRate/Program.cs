@@ -4,37 +4,36 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CalculatorRate
+namespace LoanCalculator
 {
     class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Please input money: ");
-            var m = Console.ReadLine();
+            string inputMoney = Console.ReadLine();
             Console.WriteLine("Please input rate: ");
-            var r = Console.ReadLine();
+            string inputRate = Console.ReadLine();
             Console.WriteLine("Please input time deposit:");
-            var tl = Console.ReadLine();
+            string inputTimeLoan = Console.ReadLine();
 
-            var isValidMoney = decimal.TryParse(m, out decimal money);
-            var isValidRate = decimal.TryParse(r, out decimal rate);
-            var isValidTimeLoan = int.TryParse(tl, out int timeLoan);
-            decimal total = 0;
+            decimal money = decimal.Parse(inputMoney);
+            decimal rate = decimal.Parse(inputRate);
+            decimal timeLoan = int.Parse(inputTimeLoan);
 
-            if (isValidMoney && isValidRate && isValidTimeLoan)
+            if (money > 0 && rate > 0 && timeLoan > 0)
             {
                 for (int i = 0; i < timeLoan; i++)
                 {
-                    if (i == 0) total = money + money * rate/100;
-                    else total += total * rate/100;
+                    money += money * rate / 100;
                 }
-                Console.WriteLine("Total: " + total);
             }
             else
             {
-                Console.WriteLine("Data invalid!");
+                Console.WriteLine("Invalid data");
             }
+
+            Console.WriteLine("Total: " + money);
             Console.ReadLine();
         }
     }
